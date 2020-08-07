@@ -1,0 +1,7 @@
+thse is the read.txt file.
+
+this texts will appear in the write.txt file.
+
+let's see!
+
+OMG i'm in writeTexts.txt now!!!
