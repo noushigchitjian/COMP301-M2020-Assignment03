@@ -6,6 +6,8 @@ Author's name : Noushig Chitjian
 
 Student Number : 301117936
 
+Subject / description : COMP 301 - Assignment03
+
 file description : This will read the data.txt file and outputs the wages
 
                    of employees in a nice format to the console
@@ -27,5 +29,16 @@ print(" Employee Number |    Employee Name    | Hours Worked ")
 # table seperation line for more clarity
 print("-----------------------------------------------------")
 
-# table style
+# this will split the display by comma and assigns it in the employeeInf to display it in a nice format
+for display in lists:
+    employeeInf = display.split(",")    
+    employeeNum = employeeInf[0]
+    employeeName = employeeInf[1]+" "+ employeeInf[2]
+    hoursWorked = employeeInf[3]
+    
+    # this will print the data in a required format...
+    print("   %10s    |%20s | %7s " %(employeeNum,employeeName,hoursWorked))
+
+
+    
 
