@@ -1,13 +1,9 @@
 """
 
 File name : payroll.py
-
 Author's name : Noushig Chitjian
-
 Student Number : 301117936
-
 Subject / description : COMP 301 - Assignment03
-
 file description : This will read the data.txt file and outputs the wages
 
                    of employees in a nice format to the console
